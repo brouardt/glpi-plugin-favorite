@@ -79,7 +79,7 @@ class Preference extends CommonDBTM
             $mode = 'add';
         }
 
-        if (self::canCreate() || self::canEdit()) {
+        if (self::canCreate() || self::canUpdate()) {
             $can_edit = true;
         } else {
             $can_edit = false;

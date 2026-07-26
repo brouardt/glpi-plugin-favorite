@@ -37,18 +37,17 @@ if (!isset($_GET['withtemplate'])) {
     $_GET['withtemplate'] = '';
 }
 
-$preference = new Preference();
-
-if (isset($_POST['add'])) {
-    $preference->check(-1, CREATE, $_POST);
-    $preference->add($_POST);
-} else if (isset($_POST['update'])) {
-    if ((int)$_POST['id'] !== Session::getLoginUserID()) {
-        Session::addMessageAfterRedirect(
-            __s('You do not have permission to modify this item.'),
-            false,
-            WARNING);
-    } else {
+if (isset($_POST['id']) && (int)$_POST['id'] !== Session::getLoginUserID()) {
+    Session::addMessageAfterRedirect(
+        __s('You do not have permission to modify this item', PLUGIN_FAVORITES),
+        false,
+        WARNING);
+} else {
+    $preference = new Preference();
+    if (isset($_POST['add'])) {
+        $preference->check(-1, CREATE, $_POST);
+        $preference->add($_POST);
+    } else if (isset($_POST['update'])) {
         $preference->check($_POST['id'], UPDATE);
         $preference->update($_POST);
     }

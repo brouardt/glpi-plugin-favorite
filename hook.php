@@ -42,17 +42,8 @@ function plugin_favorites_install(): bool
 
     Config::setConfigurationValues(PLUGIN_FAVORITES_CONFIG, ['version' => PLUGIN_FAVORITES_VERSION]);
 
-    $default_charset = DBConnection::getDefaultCharset();
-    $default_collation = DBConnection::getDefaultCollation();
-    $default_key_sign = DBConnection::getDefaultPrimaryKeySignOption();
-
-    $preference_table = Preference::getTable();
-    if (!$DB->tableExists($preference_table)) {
-        $DB->doQuery("CREATE TABLE IF NOT EXISTS `$preference_table` (
-         `id` INT $default_key_sign NOT NULL,
-         `types` TEXT, 
-         PRIMARY KEY (`id`)
-         ) ENGINE=InnoDB DEFAULT CHARSET=$default_charset COLLATE=$default_collation ROW_FORMAT=DYNAMIC;");
+    if (!$DB->tableExists(Preference::getTable())) {
+        $DB->runFile(PLUGIN_FAVORITES_DIR . '/scripts/sql/up-1.0.1.sql');
     }
     //execute the whole migration
     $migration->executeMigration();
@@ -79,8 +70,8 @@ function plugin_favorites_uninstall(): bool
         ProfileRight::deleteProfileRights([$right['field']]);
     }
 
-    $preference_table = Preference::getTable();
-    $DB->doQuery("DROP TABLE IF EXISTS `$preference_table`;");
-
+    if ($DB->tableExists(Preference::getTable())) {
+        $DB->runFile(PLUGIN_FAVORITES_DIR . '/scripts/sql/down-1.0.1.sql');
+    }
     return true;
 }

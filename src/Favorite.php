@@ -91,7 +91,7 @@ class Favorite extends CommonDBTM
 
                 if (!empty($types)) {
                     foreach ($types as $type) {
-                        if(!is_string($type)
+                        if (!is_string($type)
                             || !class_exists($type)
                             || !is_a($type, CommonDBTM::class, true)
                             || !method_exists($type, 'getMenuContent')

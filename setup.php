@@ -36,9 +36,13 @@ use GlpiPlugin\Favorites\Preference;
 define('PLUGIN_FAVORITES', 'favorites');
 define('PLUGIN_FAVORITES_CONFIG', 'plugin:favorites');
 define('PLUGIN_FAVORITES_RIGHTS', 'plugin_favorites');
-define('PLUGIN_FAVORITES_VERSION', '1.0.0');
+define('PLUGIN_FAVORITES_VERSION', '1.0.1');
 define('PLUGIN_FAVORITES_MIN_GLPI_VERSION', '11.0.0');
 define('PLUGIN_FAVORITES_MAX_GLPI_VERSION', '11.0.99');
+
+if(!defined('PLUGIN_FAVORITES_DIR')){
+    define('PLUGIN_FAVORITES_DIR', Plugin::getPhpDir(PLUGIN_FAVORITES));
+}
 
 /**
  * @return void
@@ -73,7 +77,7 @@ function plugin_version_favorites(): array
         'version' => PLUGIN_FAVORITES_VERSION,
         'author' => 'Thierry Brouard',
         'license' => 'GPLv3',
-        'homepage' => 'https://github.com/brouardt/glpi-plugin-favorite',
+        'homepage' => 'https://github.com/brouardt/glpi-plugin-favorites',
         'requirements' => [
             'glpi' => [
                 'min' => PLUGIN_FAVORITES_MIN_GLPI_VERSION,
@@ -97,11 +101,5 @@ function plugin_favorites_check_prerequisites(): bool
  */
 function plugin_favorite_check_config(bool $verbose = false): bool
 {
-    // Your configuration check
     return true;
-
-    if ($verbose) {
-        echo __('Installed / not configured', PLUGIN_FAVORITES);
-    }
-    return false;
 }
