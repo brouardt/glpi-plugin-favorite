@@ -7,10 +7,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Favorite 1.0.0\n"
+"Project-Id-Version: Favorite 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 13:06+0200\n"
-"PO-Revision-Date: 2026-06-30 09:47+0200\n"
+"PO-Revision-Date: 2026-07-27 13:45+0200\n"
 "Last-Translator: Thierry Brouard <thierry.brouard@free.fr>\n"
 "Language-Team: informatique@sevengroup.fr\n"
 "Language: ko_KR\n"
@@ -46,3 +46,9 @@ msgstr "표시된 메뉴"
 
 msgid "You do not have permission to modify this item"
 msgstr "이 항목을 수정할 권한이 없습니다"
+
+msgid "Disable additive ticket menu"
+msgstr "추가 티켓 메뉴 비활성화"
+
+msgid "Menu always in first"
+msgstr "메뉴가 항상 먼저입니다"

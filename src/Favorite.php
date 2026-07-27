@@ -99,6 +99,9 @@ class Favorite extends CommonDBTM
                             continue;
                         }
                         $data = $type::getMenuContent();
+                        if ($preference['disable_additive_ticket_menu'] && array_key_exists('create_ticket', $data)) {
+                            $data = $data['ticket'];
+                        }
                         if (isset($data['is_multi_entries']) && $data['is_multi_entries']) {
                             $favorites_menu[PLUGIN_FAVORITES]['content'] += $data;
                         } else {
@@ -107,8 +110,12 @@ class Favorite extends CommonDBTM
                     }
                 }
 
-                // return favorites menu always in first
-                $menus = $favorites_menu + $menus;
+                if ($preference['always_in_first']) {
+                    // return favorites menu always in first
+                    $menus = $favorites_menu + $menus;
+                } else {
+                    $menus += $favorites_menu;
+                }
             }
         }
 

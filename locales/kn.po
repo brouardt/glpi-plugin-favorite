@@ -7,10 +7,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Favorite 1.0.0\n"
+"Project-Id-Version: Favorite 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 13:06+0200\n"
-"PO-Revision-Date: 2026-06-30 09:50+0200\n"
+"PO-Revision-Date: 2026-07-27 13:45+0200\n"
 "Last-Translator: Thierry Brouard <thierry.brouard@free.fr>\n"
 "Language-Team: informatique@sevengroup.fr\n"
 "Language: kn\n"
@@ -21,28 +21,34 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid "Favorites Plugin"
-msgstr "ปลั๊กอินรายการโปรด"
+msgstr "ಮೆಚ್ಚಿನವುಗಳ ಪ್ಲಗಿನ್"
 
 msgid "Favorite"
-msgstr "รายการโปรด"
+msgstr "ನೆಚ್ಚಿನ"
 
 msgid "Favorites"
-msgstr "รายการโปรด"
+msgstr "ಮೆಚ್ಚಿನವುಗಳು"
 
 msgid "Installed / not configured"
-msgstr "ติดตั้งแล้ว / ยังไม่ได้ตั้งค่า"
+msgstr "ಸ್ಥಾಪಿಸಲಾಗಿದೆ / ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ"
 
 msgid "List"
-msgstr "รายการ"
+msgstr "ಪಟ್ಟಿ"
 
 msgid "No results found"
-msgstr "ไม่พบผลลัพธ์"
+msgstr "ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
 
 msgid "Default"
-msgstr "ค่าเริ่มต้น"
+msgstr "ಡೀಫಾಲ್ಟ್"
 
 msgid "Displayed menus"
-msgstr "เมนูที่แสดง"
+msgstr "ಪ್ರದರ್ಶಿಸಲಾದ ಮೆನುಗಳು"
 
 msgid "You do not have permission to modify this item"
-msgstr "คุณไม่มีสิทธิ์แก้ไขรายการนี้"
+msgstr "ಈ ಐಟಂ ಅನ್ನು ಮಾರ್ಪಡಿಸಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ"
+
+msgid "Disable additive ticket menu"
+msgstr "ಸೇರ್ಪಡೆ ಟಿಕೆಟ್ ಮೆನುವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "Menu always in first"
+msgstr "ಮೆನು ಯಾವಾಗಲೂ ಮೊದಲು"

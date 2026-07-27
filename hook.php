@@ -36,17 +36,16 @@ use GlpiPlugin\Favorites\Preference;
  */
 function plugin_favorites_install(): bool
 {
-    global $DB;
+//    $migration = new Migration(PLUGIN_FAVORITES_VERSION);
 
-    $migration = new Migration(PLUGIN_FAVORITES_VERSION);
+    $config = new Config();
+    $current = $config->getConfigurationValue(PLUGIN_FAVORITES_CONFIG, 'version');
+    favorites_install_sql($current);
 
     Config::setConfigurationValues(PLUGIN_FAVORITES_CONFIG, ['version' => PLUGIN_FAVORITES_VERSION]);
 
-    if (!$DB->tableExists(Preference::getTable())) {
-        $DB->runFile(PLUGIN_FAVORITES_DIR . '/scripts/sql/up-1.0.1.sql');
-    }
-    //execute the whole migration
-    $migration->executeMigration();
+//    //execute the whole migration
+//    $migration->executeMigration();
 
     Profile::initProfile();
     Profile::createFirstAccess($_SESSION['glpiactiveprofile']['id']);
@@ -70,8 +69,29 @@ function plugin_favorites_uninstall(): bool
         ProfileRight::deleteProfileRights([$right['field']]);
     }
 
-    if ($DB->tableExists(Preference::getTable())) {
-        $DB->runFile(PLUGIN_FAVORITES_DIR . '/scripts/sql/down-1.0.1.sql');
-    }
+    $DB->dropTable(Preference::getTable(), true);
+
     return true;
+}
+
+/**
+ * plugin_favorites_install_sql
+ * @param string|null $current_version
+ * @return void
+ */
+function favorites_install_sql(string|null $current_version): void
+{
+    /** @var DBmysql $DB */
+    global $DB;
+
+    if(is_null($current_version)) {
+        $current_version = '0.0.0';
+    }
+
+    $versions = ['1.0.0', '1.0.1'];
+    foreach ($versions as $version) {
+        if (version_compare($version, $current_version, '>')) {
+            $DB->runFile(PLUGIN_FAVORITES_DIR . "/scripts/sql/up-$version.sql");
+        }
+    }
 }

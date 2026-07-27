@@ -36,15 +36,18 @@
         {% endif %}
 
         <div id="mainformtable">
-
             <div class="card-body d-flex flex-wrap">
                 <div class="col-12 col-xxl-12 flex-column">
                     <div class="d-flex flex-row flex-wrap flex-xl-nowrap">
                         <div class="row flex-row align-items-start flex-grow-1">
+                            <div class="row flew-row">
+                                {{ fields.checkboxField(
+                                    'always_in_first',
+                                    preference.always_in_first,
+                                    __('Menu always in first', 'favorites')
+                                ) }}
+                            </div>
                             <div class="row flex-row">
-                                {% if canedit %}
-                                    <input type="hidden" name="id" value="{{ preference.id }}"/>
-                                {% endif %}
 
                                 {{ fields.dropdownArrayField(
                                     'types',
@@ -55,6 +58,12 @@
                                         values: preference.types,
                                         multiple: 1
                                     }
+                                ) }}
+
+                                {{ fields.checkboxField(
+                                    'disable_additive_ticket_menu',
+                                    preference.disable_additive_ticket_menu,
+                                    __('Disable additive ticket menu', 'favorites')
                                 ) }}
 
                                 {{ fields.nullField }}
@@ -72,7 +81,7 @@
                     <span>{{ _x('button', 'Save') }}</span>
                 </button>
             </div>
-
+            <input type="hidden" name="id" value="{{ preference.id }}"/>
             <input type="hidden" name="_glpi_csrf_token" value="{{ csrf_token() }}"/>
         </div>
     </form>

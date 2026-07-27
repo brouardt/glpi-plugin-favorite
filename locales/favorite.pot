@@ -45,3 +45,9 @@ msgstr ""
 
 msgid "You do not have permission to modify this item"
 msgstr ""
+
+msgid "Disable additive ticket menu"
+msgstr ""
+
+msgid "Favorite menu always in first"
+msgstr ""

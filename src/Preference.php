@@ -76,6 +76,8 @@ class Preference extends CommonDBTM
         } else {
             $preference['id'] = Session::getLoginUserID();
             $preference['types'] = [];
+            $preference['always_in_first'] = 1;
+            $preference['disable_additive_ticket_menu'] = 0;
             $mode = 'add';
         }
 
@@ -147,7 +149,7 @@ class Preference extends CommonDBTM
         global $DB;
 
         return $DB->request([
-            'SELECT' => ['id', 'types'],
+            'SELECT' => ['id', 'types', 'always_in_first', 'disable_additive_ticket_menu'],
             'FROM' => 'glpi_plugin_favorites_preferences',
             'WHERE' => ['id' => Session::getLoginUserID()],
         ])->current();

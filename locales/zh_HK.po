@@ -7,10 +7,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Favorite 1.0.0\n"
+"Project-Id-Version: Favorite 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 13:06+0200\n"
-"PO-Revision-Date: 2026-06-30 10:00+0200\n"
+"PO-Revision-Date: 2026-07-27 13:53+0200\n"
 "Last-Translator: Thierry Brouard <thierry.brouard@free.fr>\n"
 "Language-Team: informatique@sevengroup.fr\n"
 "Language: zh_HK\n"
@@ -46,3 +46,9 @@ msgstr "显示的菜单"
 
 msgid "You do not have permission to modify this item"
 msgstr "您無權修改此項目"
+
+msgid "Disable additive ticket menu"
+msgstr "禁用附加票務選單"
+
+msgid "Menu always in first"
+msgstr "菜單始終優先"

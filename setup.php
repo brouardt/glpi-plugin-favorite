@@ -57,8 +57,6 @@ function plugin_init_favorites(): void
 
     $plugin = new Plugin();
     if (Session::getLoginUserID() && $plugin->isActivated(PLUGIN_FAVORITES)) {
-
-
         if (Session::haveRight(PLUGIN_FAVORITES_RIGHTS, READ)) {
             Plugin::registerClass(Preference::class, ['addtabon' => 'Preference']);
             $PLUGIN_HOOKS[Hooks::REDEFINE_MENUS][PLUGIN_FAVORITES] = [Favorite::class, 'redefineMenus'];

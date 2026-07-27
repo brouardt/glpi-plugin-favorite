@@ -7,10 +7,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Favorite 1.0.0\n"
+"Project-Id-Version: Favorite 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 13:06+0200\n"
-"PO-Revision-Date: 2026-06-30 10:00+0200\n"
+"PO-Revision-Date: 2026-07-27 13:52+0200\n"
 "Last-Translator: Thierry Brouard <thierry.brouard@free.fr>\n"
 "Language-Team: informatique@sevengroup.fr\n"
 "Language: vi_VN\n"
@@ -46,3 +46,9 @@ msgstr "Các menu được hiển thị"
 
 msgid "You do not have permission to modify this item"
 msgstr "Bạn không có quyền sửa đổi mục này"
+
+msgid "Disable additive ticket menu"
+msgstr "Vô hiệu hóa menu vé bổ sung"
+
+msgid "Menu always in first"
+msgstr "Thực đơn luôn được ưu tiên hàng đầu"

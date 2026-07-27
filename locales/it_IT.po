@@ -7,10 +7,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Favorite 1.0.0\n"
+"Project-Id-Version: Favorite 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 13:06+0200\n"
-"PO-Revision-Date: 2026-06-30 09:52+0200\n"
+"PO-Revision-Date: 2026-07-27 13:44+0200\n"
 "Last-Translator: Thierry Brouard <thierry.brouard@free.fr>\n"
 "Language-Team: informatique@sevengroup.fr\n"
 "Language: it_IT\n"
@@ -46,3 +46,9 @@ msgstr "Menu visualizzati"
 
 msgid "You do not have permission to modify this item"
 msgstr "Non hai l'autorizzazione per modificare questo elemento"
+
+msgid "Disable additive ticket menu"
+msgstr "Disabilita il menu dei biglietti aggiuntivi"
+
+msgid "Menu always in first"
+msgstr "Il menu viene sempre prima di tutto"

@@ -7,10 +7,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Favorite 1.0.0\n"
+"Project-Id-Version: Favorite 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-17 13:06+0200\n"
-"PO-Revision-Date: 2026-06-30 09:40+0200\n"
+"PO-Revision-Date: 2026-07-27 13:44+0200\n"
 "Last-Translator: Thierry Brouard <thierry.brouard@free.fr>\n"
 "Language-Team: informatique@sevengroup.fr\n"
 "Language: is_IS\n"
@@ -46,3 +46,9 @@ msgstr "Birt valmyndir"
 
 msgid "You do not have permission to modify this item"
 msgstr "Þú hefur ekki leyfi til að breyta þessum atriði"
+
+msgid "Disable additive ticket menu"
+msgstr "Slökkva á viðbótarmiðavalmynd"
+
+msgid "Menu always in first"
+msgstr "Matseðillinn alltaf fyrst"
