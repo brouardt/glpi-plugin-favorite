@@ -22,8 +22,8 @@ Ce plugin vous permet de gérer les favoris des menus les plus utilisés. Très 
 2) Pour installer, vous pouvez télécharger le dernière version ``https://github.com/brouardt/glpi-plugin-favorites/releases`` directement depuis gitgub, extraire l'archive, renommer le dossier en "favorites" et le glisser dans le dossier plugin de votre GLPI
 
 #### ⚙️ Configuration
-Pour ajouter ou supprimer des menus en favoris, il vous suffit de vous rendre dans vos préférences dans l'onglet Favoris et de sélectionner dans les menus à afficher ceux que vous préférez.
-Vous pouvez choisir de placer en premier le menu favoris ou de le laisser à la fin des autres menus.
+Pour ajouter ou supprimer des menus en favoris, il vous suffit de vous rendre dans vos préférences dans l'onglet Favoris et de sélectionner dans les menus à afficher ceux que vous préférez.  
+Vous pouvez choisir de placer en premier le menu favoris ou de le laisser à la fin des autres menus.  
 Vous pouvez choisir de supprimer le menu additionnel [Créer un ticket] du menu ticket.
 
 #### 📄 Licence
@@ -48,8 +48,8 @@ This plugin lets you manage favorite for your most frequently used menus. Very u
 2) To install, you can download the latest release ``https://github.com/brouardt/glpi-plugin-favorites/releases`` directly from GitHub, extract the archive, rename the folder to "favorites" and move it into your GLPI plugins folder.
 
 #### ⚙️ Configuration
-To add or remove favorite menus, simply go to your preferences under the "Favorites" tab and select the menus you prefer to display.
-You can choose to place the "Favorites" menu first or leave it at the end of the other menus.
+To add or remove favorite menus, simply go to your preferences under the "Favorites" tab and select the menus you prefer to display.  
+You can choose to place the "Favorites" menu first or leave it at the end of the other menus.  
 You can choose to remove the [Create Ticket] option from the "Ticket" menu.
 
 #### 📄 License
