@@ -1,4 +1,4 @@
-# Favorite
+# Favorites
 
 ## Greffon favoris pour GLPI / Plugin favorites to GLPI
 
