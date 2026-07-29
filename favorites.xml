@@ -5,57 +5,376 @@
     <logo>https://raw.githubusercontent.com/brouardt/glpi-plugin-favorites/main/logo.png</logo>
     <description>
         <short>
-            <fr>
-                Ce greffon vous permet de gérer vos menus favoris.
-            </fr>
-            <en>
-                This plugin allows you to manage your favorite menus.
-            </en>
-            <es>
-                Este plugin te permite gestionar tus menús favoritos.
-            </es>
-            <de>
-                Mit diesem Plugin können Sie Ihre Lieblingsmenüs verwalten.
-            </de>
-            <pt>
-                Este plugin permite-lhe gerir os seus menus favoritos.
-            </pt>
-            <zh>
-                此外掛程式可讓您管理您最喜愛的選單。
-            </zh>
+            <ar>تتيح لك هذه الإضافة إدارة قوائمك المفضلة.</ar>
+            <be>Гэты плагін дазваляе кіраваць вашымі любімымі меню.</be>
+            <bg>Този плъгин ви позволява да управлявате любимите си менюта.</bg>
+            <bn>এই প্লাগইনটি আপনাকে আপনার পছন্দের মেনুগুলো পরিচালনা করতে দেয়।</bn>
+            <ca>Aquest complement et permet gestionar els teus menús preferits.</ca>
+            <cz>Tento plugin vám umožňuje spravovat vaše oblíbené nabídky.</cz>
+            <da>Dette plugin giver dig mulighed for at administrere dine yndlingsmenuer.</da>
+            <de>Mit diesem Plugin können Sie Ihre Lieblingsmenüs verwalten.</de>
+            <el>Αυτό το πρόσθετο σάς επιτρέπει να διαχειρίζεστε τα αγαπημένα σας μενού.</el>
+            <en>This plugin allows you to manage your favorite menus.</en>
+            <eo>Ĉi tiu kromprogramo permesas al vi administri viajn plej ŝatatajn menuojn.</eo>
+            <es>Este plugin te permite gestionar tus menús favoritos.</es>
+            <et>Ei plugin a atufichuk om kopwe nemeni om kewe menukon.</et>
+            <eu>Plugin honek zure menu gogokoenak kudeatzeko aukera ematen dizu.</eu>
+            <fa>این افزونه به شما امکان مدیریت منوهای مورد علاقه‌تان را می‌دهد.</fa>
+            <fi>Tämän laajennuksen avulla voit hallita suosikkivalikoitasi.</fi>
+            <fr>Ce greffon vous permet de gérer vos menus favoris.</fr>
+            <gl>Este plugin permíteche xestionar os teus menús favoritos.</gl>
+            <he>תוסף זה מאפשר לך לנהל את התפריטים המועדפים עליך.</he>
+            <hi>यह प्लगइन आपको अपने पसंदीदा मेनू को मैनेज करने की सुविधा देता है।</hi>
+            <hr>Ovaj dodatak vam omogućuje upravljanje vašim omiljenim izbornicima.</hr>
+            <hu>Ez a bővítmény lehetővé teszi a kedvenc menük kezelését.</hu>
+            <id>Plugin ini memungkinkan Anda mengelola menu favorit Anda.</id>
+            <is>Þessi viðbót gerir þér kleift að stjórna uppáhaldsvalmyndunum þínum.</is>
+            <it>Questo plugin ti consente di gestire i tuoi menu preferiti.</it>
+            <ja>このプラグインを使用すると、お気に入りのメニューを管理できます。</ja>
+            <km>កម្មវិធីជំនួយនេះអនុញ្ញាតឱ្យអ្នកគ្រប់គ្រងម៉ឺនុយដែលអ្នកចូលចិត្ត។</km>
+            <kn>ಈ ಪ್ಲಗಿನ್ ನಿಮ್ಮ ನೆಚ್ಚಿನ ಮೆನುಗಳನ್ನು ನಿರ್ವಹಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.</kn>
+            <ko>이 플러그인을 사용하면 즐겨찾는 메뉴를 관리할 수 있습니다.</ko>
+            <lv>Šis spraudnis ļauj pārvaldīt iecienītākās izvēlnes.</lv>
+            <lt>Šis įskiepis leidžia valdyti mėgstamiausius meniu.</lt>
+            <mn>Энэ залгаас нь танд дуртай цэсээ удирдах боломжийг олгоно.</mn>
+            <ms>Plugin ini membolehkan anda mengurus menu kegemaran anda.</ms>
+            <no>Denne pluginen lar deg administrere favorittmenyene dine.</no>
+            <pl>Ta wtyczka umożliwia zarządzanie ulubionymi menu.</pl>
+            <pt>Este plugin permite-lhe gerir os seus menus favoritos.</pt>
+            <ro>Acest plugin vă permite să gestionați meniurile preferate.</ro>
+            <ru>Этот плагин позволяет управлять вашими избранными меню.</ru>
+            <sk>Tento plugin vám umožňuje spravovať vaše obľúbené ponuky.</sk>
+            <sl>Ta vtičnik vam omogoča upravljanje vaših priljubljenih menijev.</sl>
+            <sq>Ky plugin ju lejon të menaxhoni menutë tuaja të preferuara.</sq>
+            <sr>Овај додатак вам омогућава да управљате својим омиљеним менијима.</sr>
+            <sv>Det här pluginet låter dig hantera dina favoritmenyer.</sv>
+            <th>ปลั๊กอินนี้ช่วยให้คุณจัดการเมนูโปรดของคุณได้</th>
+            <tr>Bu eklenti, favori menülerinizi yönetmenizi sağlar.</tr>
+            <uk>Цей плагін дозволяє вам керувати вашими улюбленими меню.</uk>
+            <vi>Plugin này cho phép bạn quản lý các menu yêu thích của mình.</vi>
+            <zh>此外掛程式可讓您管理您最喜愛的選單。</zh>
         </short>
         <long>
-            <fr>
-                L'objectif de ce greffon est de fournir un menu administrable à volonté pour intégrer, en son sein,
-                uniquement les menus que vous utilisez le plus souvent. Pour gérer vos choix, il vous suffit de vous
-                rendre dans vos préférences et de cliquer sur l'onglet "favoris", puis de sélectionner dans le champ
-                "Menu affichés" la liste des éléments qui vous intéresse.
-            </fr>
-            <en>
-                The goal of this plugin is to provide a fully customizable menu where you can include only the menus
-                you use most frequently. To manage your choices, simply go to your preferences, click on the "Favorites"
-                tab, and then select the items you are interested in from the "Displayed menus" field.
-            </en>
-            <es>
-                El objetivo de este plugin es ofrecer un menú totalmente personalizable en el que puedas incluir
-                únicamente los menús que utilizas con mayor frecuencia. Para gestionar tus selecciones, simplemente ve
-                a tus preferencias, haz clic en la pestaña «Favoritos» y, a continuación, selecciona los elementos que
-                te interesen en el campo «Menús mostrados».
-            </es>
+            <ar>
+                دف هذه الإضافة إلى توفير قائمة قابلة للتخصيص تتيح لك عرض القوائم التي تستخدمها بكثرة فقط. لإدارة
+                اختياراتك، انتقل إلى تفضيلاتك وانقر على تبويب "المفضلة"، ثم حدد العناصر التي تريدها من حقل "القوائم
+                المعروضة". يمكنك بعد ذلك اختيار ما إذا كانت قائمة المفضلة لديك ستظهر أولاً. بالإضافة إلى ذلك، يمكنك
+                تعطيل القوائم الإضافية غير المرغوب فيها، مثل قائمة "إنشاء تذكرة"
+            </ar>
+            <be>
+                Мэта гэтага плагіна — стварыць наладжвальнае меню, якое дазволіць вам уключаць толькі тыя меню, якімі вы
+                карыстаецеся часцей за ўсё. Каб кіраваць сваім выбарам, проста перайдзіце ў свае налады і націсніце на
+                ўкладку «Выбранае», а затым выберыце патрэбныя элементы ў полі «Адлюстроўваныя меню». Затым вы можаце
+                выбраць, ці павінна ваша меню абранага адлюстроўвацца першым. Акрамя таго, вы можаце адключыць
+                непажаданыя дадатковыя меню, такія як меню «Стварыць заяўку».
+            </be>
+            <bg>
+                Целта на този плъгин е да предостави персонализируемо меню, което ви позволява да включвате само
+                менютата, които използвате най-често. За да управлявате избора си, просто отидете в предпочитанията
+                си и кликнете върху раздела „Любими“, след което изберете желаните елементи от полето „Показвани
+                менюта“.
+                След това можете да изберете дали менюто ви с любими да се показва първо. Освен това можете да
+                деактивирате нежелани допълнителни менюта, като например менюто „Създаване на билет“.
+            </bg>
+            <bn>
+                এই প্লাগইনটির উদ্দেশ্য হলো একটি কাস্টমাইজযোগ্য মেনু প্রদান করা, যা আপনাকে শুধুমাত্র আপনার সবচেয়ে বেশি
+                ব্যবহৃত মেনুগুলো অন্তর্ভুক্ত করার সুযোগ দেবে। আপনার নির্বাচনগুলো পরিচালনা করতে, কেবল আপনার প্রেফারেন্সে
+                যান এবং "ফেভারিটস" ট্যাবে ক্লিক করুন, তারপর "ডিসপ্লেড মেনুস" ফিল্ড থেকে আপনার পছন্দের আইটেমগুলো নির্বাচন
+                করুন। এরপর আপনি বেছে নিতে পারেন যে আপনার ফেভারিটস মেনুটি প্রথমে প্রদর্শিত হবে কি না। এছাড়াও, আপনি
+                অবাঞ্ছিত অতিরিক্ত মেনুগুলো, যেমন "ক্রিয়েট আ টিকেট" মেনুটি, নিষ্ক্রিয় করতে পারেন।
+            </bn>
+            <ca>
+                L'objectiu d'aquest complement és proporcionar un menú personalitzable que us permeti incloure només els
+                menús que feu servir més sovint. Per gestionar les vostres seleccions, simplement aneu a les vostres
+                preferències i feu clic a la pestanya "Preferits" i, a continuació, seleccioneu els elements que vulgueu
+                al camp "Menús mostrats". A continuació, podeu triar si voleu que el vostre menú de preferits es mostri
+                primer. A més, podeu desactivar els menús addicionals no desitjats, com ara el menú "Crea un tiquet".
+            </ca>
+            <cz>
+                Cílem tohoto pluginu je poskytnout přizpůsobitelné menu, které vám umožní zobrazit pouze menu, která
+                používáte nejčastěji. Chcete-li spravovat své výběry, jednoduše přejděte do svých preferencí a klikněte
+                na kartu „Oblíbené“ a poté vyberte požadované položky v poli „Zobrazené menu“. Poté si můžete zvolit,
+                zda se má menu oblíbených zobrazit jako první. Kromě toho můžete zakázat nežádoucí doplňkové menu,
+                například menu „Vytvořit tiket“.
+            </cz>
             <de>
                 Ziel dieses Plugins ist es, ein vollständig anpassbares Menü bereitzustellen, in das Sie nur die am
                 häufigsten genutzten Menüs aufnehmen können. Um Ihre Auswahl zu verwalten, gehen Sie einfach zu den
                 Einstellungen, klicken Sie auf den Reiter „Favoriten“ und wählen Sie dann im Feld „Angezeigte Menüs“
                 die gewünschten Einträge aus.
             </de>
+            <el>
+                Ο στόχος αυτού του πρόσθετου είναι να παρέχει ένα προσαρμόσιμο μενού που σας επιτρέπει να συμπεριλάβετε
+                μόνο τα μενού που χρησιμοποιείτε πιο συχνά. Για να διαχειριστείτε τις επιλογές σας, απλώς μεταβείτε στις
+                προτιμήσεις σας και κάντε κλικ στην καρτέλα "Αγαπημένα" και, στη συνέχεια, επιλέξτε τα στοιχεία που
+                θέλετε από το πεδίο "Εμφανιζόμενα μενού". Στη συνέχεια, μπορείτε να επιλέξετε εάν θα εμφανίζεται πρώτα
+                το μενού των αγαπημένων σας. Επιπλέον, μπορείτε να απενεργοποιήσετε τα ανεπιθύμητα επιπλέον μενού, όπως
+                το μενού "Δημιουργία εισιτηρίου".
+            </el>
+            <en>
+                The goal of this plugin is to provide a fully customizable menu where you can include only the menus you
+                use most frequently. To manage your selections, simply go to your preferences, click the "Favorites"
+                tab, and choose the items you want from the "Displayed menus" field. You can also decide whether your
+                favorites menu appears first. Additionally, you can disable unwanted extra menus, such as the "Create a
+                ticket" menu.
+            </en>
+            <eo>
+                La celo de ĉi tiu kromprogramo estas provizi personigeblan menuon, kiu permesas al vi inkluzivi nur la
+                menuojn, kiujn vi plej ofte uzas. Por administri viajn elektojn, simple iru al viaj preferoj kaj alklaku
+                la langeton "Favoratoj", poste elektu la deziratajn erojn el la kampo "Montritaj Menuoj". Vi povas tiam
+                elekti, ĉu via menuo de ŝatatoj estas montrata unue. Plie, vi povas malŝalti nedeziratajn ekstrajn
+                menuojn, kiel ekzemple la menuon "Krei Bileton".
+            </eo>
+            <es>
+                El objetivo de este plugin es ofrecer un menú totalmente personalizable en el que puedas incluir
+                únicamente los menús que utilizas con mayor frecuencia. Para gestionar tus selecciones, simplemente ve
+                a tus preferencias, haz clic en la pestaña «Favoritos» y, a continuación, selecciona los elementos que
+                te interesen en el campo «Menús mostrados».
+            </es>
+            <et>
+                Selle plugina eesmärk on pakkuda kohandatavat menüüd, mis võimaldab teil lisada ainult kõige sagedamini
+                kasutatavaid menüüsid. Valikute haldamiseks minge lihtsalt oma eelistuste juurde ja klõpsake vahekaarti
+                „Lemmikud“, seejärel valige väljalt „Kuvatavad menüüd“ soovitud üksused. Seejärel saate valida, kas teie
+                lemmikute menüüd kuvatakse esimesena. Lisaks saate keelata soovimatud lisamenüüd, näiteks menüü „Loo
+                pilet“.
+            </et>
+            <eu>
+                Plugin honen helburua gehien erabiltzen dituzun menuak bakarrik sartzeko aukera ematen dizun menu
+                pertsonalizagarri bat eskaintzea da. Zure hautaketak kudeatzeko, joan zure lehentasunetara eta egin klik
+                "Gogokoak" fitxan, eta ondoren hautatu nahi dituzun elementuak "Erakutsitako menuak" eremutik. Ondoren,
+                aukeratu dezakezu zure gogokoen menua lehenengo bistaratuko den ala ez. Gainera, nahi ez dituzun menu
+                gehigarriak desgaitu ditzakezu, hala nola "Txartel bat sortu" menua.
+            </eu>
+            <fa>
+                هدف این افزونه ارائه یک منوی قابل تنظیم است که به شما امکان می‌دهد فقط منوهایی را که بیشتر استفاده
+                می‌کنید، در آن قرار دهید. برای مدیریت انتخاب‌هایتان، کافیست به تنظیمات خود بروید و روی برگه «موارد
+                دلخواه» کلیک کنید، سپس موارد مورد نظر خود را از فیلد «منوهای نمایش داده شده» انتخاب کنید. سپس می‌توانید
+                انتخاب کنید که آیا منوی موارد دلخواه شما ابتدا نمایش داده شود یا خیر. علاوه بر این، می‌توانید منوهای
+                اضافی ناخواسته، مانند منوی «ایجاد یک بلیط» را غیرفعال کنید.
+            </fa>
+            <fi>
+                Tämän lisäosan tavoitteena on tarjota muokattavissa oleva valikko, johon voit sisällyttää vain useimmin
+                käyttämäsi valikot. Voit hallita valintojasi siirtymällä asetuksiisi ja napsauttamalla
+                "Suosikit"-välilehteä ja valitsemalla sitten haluamasi kohteet "Näytetyt valikot" -kentästä. Voit sitten
+                valita, näytetäänkö suosikkivalikkosi ensin. Lisäksi voit poistaa käytöstä ei-toivotut lisävalikot,
+                kuten "Luo tiketti" -valikon.
+            </fi>
+            <fr>
+                L'objectif de ce greffon est de fournir un menu administrable à volonté pour intégrer, en son sein,
+                uniquement les menus que vous utilisez le plus souvent. Pour gérer vos choix, il vous suffit de vous
+                rendre dans vos préférences et de cliquer sur l'onglet "favoris", puis de sélectionner dans le champ
+                "Menu affichés" la liste des éléments qui vous intéresse. Vous pourrez définir si votre menu de vos
+                favoris sera affiché en premier ou non. De plus, il vous sera possible de désactiver certains menu
+                additionnel non voulu tel que le menu [créer un ticket].
+            </fr>
+            <gl>
+                O obxectivo deste complemento é proporcionar un menú personalizable que che permita incluír só os menús
+                que usas con máis frecuencia. Para xestionar as túas seleccións, simplemente vai ás túas preferencias e
+                fai clic na lapela "Favoritos" e, a seguir, selecciona os elementos que queres no campo "Menús
+                mostrados". Despois, podes escoller se o teu menú de favoritos se mostra primeiro. Ademais, podes
+                desactivar os menús adicionais non desexados, como o menú "Crear un ticket".
+            </gl>
+            <he>
+                מטרת התוסף היא לספק תפריט הניתן להתאמה אישית המאפשר לך לכלול רק את התפריטים שבהם אתה משתמש בתדירות
+                הגבוהה ביותר. כדי לנהל את הבחירות שלך, פשוט עבור להעדפות שלך ולחץ על הכרטיסייה "מועדפים", לאחר מכן בחר
+                את הפריטים הרצויים מהשדה "תפריטים מוצגים". לאחר מכן תוכל לבחור האם תפריט המועדפים שלך יוצג תחילה. בנוסף,
+                תוכל להשבית תפריטים נוספים לא רצויים, כגון תפריט "צור כרטיס".
+            </he>
+            <hi>
+                इस प्लगइन का मकसद एक कस्टमाइज़ेबल मेनू देना है जो आपको सिर्फ़ वही मेनू शामिल करने देता है जिन्हें आप
+                सबसे ज़्यादा इस्तेमाल करते हैं। अपने सिलेक्शन को मैनेज करने के लिए, बस अपनी प्रेफरेंस पर जाएं और
+                "फेवरेट्स" टैब पर क्लिक करें, फिर "डिस्प्ले किए गए मेनू" फ़ील्ड से अपनी पसंद के आइटम चुनें। फिर आप चुन
+                सकते हैं कि आपका फेवरेट्स मेनू पहले दिखे या नहीं। इसके अलावा, आप फालतू एक्स्ट्रा मेनू, जैसे "क्रिएट अ
+                टिकट" मेनू को डिसेबल कर सकते हैं।
+            </hi>
+            <hr>
+                Cilj ovog dodatka je pružiti prilagodljiv izbornik koji vam omogućuje uključivanje samo izbornika koje
+                najčešće koristite. Za upravljanje svojim odabirima jednostavno idite na svoje postavke i kliknite
+                karticu "Favoriti", a zatim odaberite željene stavke iz polja "Prikazani izbornici". Zatim možete
+                odabrati hoće li se vaš izbornik favorita prvi prikazivati. Osim toga, možete onemogućiti neželjene
+                dodatne izbornike, poput izbornika "Izradi kartu".
+            </hr>
+            <hu>
+                Ennek a bővítménynek a célja, hogy egy testreszabható menüt biztosítson, amely lehetővé teszi, hogy csak
+                a leggyakrabban használt menüket jelenítse meg. A kiválasztások kezeléséhez egyszerűen lépjen a
+                beállításokhoz, és kattintson a „Kedvencek” fülre, majd válassza ki a kívánt elemeket a „Megjelenített
+                menük” mezőből. Ezután kiválaszthatja, hogy a kedvencek menüje jelenjen-e meg először. Ezenkívül
+                letilthatja a nem kívánt extra menüket, például a „Jegy létrehozása” menüt.
+            </hu>
+            <id>
+                Tujuan plugin ini adalah untuk menyediakan menu yang dapat disesuaikan yang memungkinkan Anda hanya
+                menyertakan menu yang paling sering Anda gunakan. Untuk mengelola pilihan Anda, cukup buka preferensi
+                Anda dan klik tab "Favorit", lalu pilih item yang Anda inginkan dari kolom "Menu yang Ditampilkan". Anda
+                kemudian dapat memilih apakah menu favorit Anda ditampilkan terlebih dahulu. Selain itu, Anda dapat
+                menonaktifkan menu tambahan yang tidak diinginkan, seperti menu "Buat Tiket".
+            </id>
+            <is>
+                Markmið þessarar viðbótar er að bjóða upp á sérsniðna valmynd sem gerir þér kleift að birta aðeins þær
+                valmyndir sem þú notar oftast. Til að stjórna valmöguleikum þínum skaltu einfaldlega fara í
+                stillingarnar þínar og smella á flipann „Uppáhalds“ og velja síðan þá hluti sem þú vilt úr reitnum
+                „Birtingarvalmyndir“. Þú getur síðan valið hvort uppáhaldsvalmyndin þín birtist fyrst. Að auki geturðu
+                slökkt á óæskilegum aukavalmyndum, eins og valmyndinni „Búa til miða“.
+            </is>
+            <it>
+                L'obiettivo di questo plugin è fornire un menu personalizzabile che consenta di includere solo le voci
+                di menu utilizzate più frequentemente. Per gestire le selezioni, è sufficiente accedere alle preferenze,
+                fare clic sulla scheda "Preferiti" e selezionare le voci desiderate nel campo "Menu visualizzati". È
+                quindi possibile scegliere se il menu dei preferiti debba essere visualizzato per primo. Inoltre, è
+                possibile disabilitare i menu aggiuntivi indesiderati, come ad esempio il menu "Crea un ticket".
+            </it>
+            <ja>
+                このプラグインの目的は、よく使うメニューだけを表示できるカスタマイズ可能なメニューを提供することです。
+                選択内容を管理するには、設定画面を開き、「お気に入り」タブをクリックして、「表示メニュー」フィールドから表示したい項目を選択してください。
+                お気に入りメニューを最初に表示するかどうかも選択できます。さらに、「チケット作成」メニューなど、不要な追加メニューを無効にすることも可能です。
+            </ja>
+            <km>
+                គោលដៅនៃកម្មវិធីជំនួយនេះគឺដើម្បីផ្តល់នូវម៉ឺនុយដែលអាចប្ដូរតាមបំណងបាន
+                ដែលអនុញ្ញាតឱ្យអ្នករួមបញ្ចូលតែម៉ឺនុយដែលអ្នកប្រើញឹកញាប់បំផុត។ ដើម្បីគ្រប់គ្រងការជ្រើសរើសរបស់អ្នក
+                គ្រាន់តែចូលទៅកាន់ចំណូលចិត្តរបស់អ្នក ហើយចុចលើផ្ទាំង "ចំណូលចិត្ត" បន្ទាប់មកជ្រើសរើសធាតុដែលអ្នកចង់បានពីវាល
+                "ម៉ឺនុយដែលបង្ហាញ"។ បន្ទាប់មកអ្នកអាចជ្រើសរើសថាតើម៉ឺនុយចំណូលចិត្តរបស់អ្នកត្រូវបានបង្ហាញមុនឬអត់។ លើសពីនេះ
+                អ្នកអាចបិទម៉ឺនុយបន្ថែមដែលមិនចង់បាន ដូចជាម៉ឺនុយ "បង្កើតសំបុត្រ"។
+            </km>
+            <kn>
+                ಈ ಪ್ಲಗಿನ್‌ನ ಗುರಿಯು ನೀವು ಹೆಚ್ಚಾಗಿ ಬಳಸುವ ಮೆನುಗಳನ್ನು ಮಾತ್ರ ಸೇರಿಸಲು ಅನುಮತಿಸುವ ಗ್ರಾಹಕೀಯಗೊಳಿಸಬಹುದಾದ ಮೆನುವನ್ನು
+                ಒದಗಿಸುವುದಾಗಿದೆ. ನಿಮ್ಮ ಆಯ್ಕೆಗಳನ್ನು ನಿರ್ವಹಿಸಲು, ನಿಮ್ಮ ಆದ್ಯತೆಗಳಿಗೆ ಹೋಗಿ "ಮೆಚ್ಚಿನವುಗಳು" ಟ್ಯಾಬ್ ಅನ್ನು ಕ್ಲಿಕ್
+                ಮಾಡಿ, ನಂತರ "ಪ್ರದರ್ಶಿಸಲಾದ ಮೆನುಗಳು" ಕ್ಷೇತ್ರದಿಂದ ನಿಮಗೆ ಬೇಕಾದ ಐಟಂಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ. ನಂತರ ನಿಮ್ಮ ಮೆಚ್ಚಿನವುಗಳ
+                ಮೆನುವನ್ನು ಮೊದಲು ಪ್ರದರ್ಶಿಸಬೇಕೆ ಎಂದು ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು. ಹೆಚ್ಚುವರಿಯಾಗಿ, "ಟಿಕೆಟ್ ರಚಿಸಿ" ಮೆನುವಿನಂತಹ ಅನಗತ್ಯ
+                ಹೆಚ್ಚುವರಿ ಮೆನುಗಳನ್ನು ನೀವು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬಹುದು.
+            </kn>
+            <ko>
+                이 플러그인의 목표는 사용자가 가장 자주 사용하는 메뉴만 포함할 수 있도록 맞춤 설정 가능한 메뉴를 제공하는 것입니다.
+                메뉴를 관리하려면 환경 설정으로 이동하여 "즐겨찾기" 탭을 클릭한 다음 "표시할 메뉴" 필드에서 원하는 항목을 선택하세요.
+                즐겨찾기 메뉴를 먼저 표시할지 여부를 선택할 수 있습니다. 또한 "티켓 생성" 메뉴와 같이 원하지 않는 추가 메뉴를 비활성화할
+                수도 있습니다.
+            </ko>
+            <lv>
+                Šī spraudņa mērķis ir nodrošināt pielāgojamu izvēlni, kas ļauj iekļaut tikai visbiežāk izmantotās
+                izvēlnes. Lai pārvaldītu atlasi, vienkārši dodieties uz savām preferencēm un noklikšķiniet uz cilnes
+                “Izlase”, pēc tam laukā “Attēlotās izvēlnes” atlasiet vēlamās vienības. Pēc tam varat izvēlēties, vai
+                vispirms tiek parādīta jūsu izlases izvēlne. Turklāt varat atspējot nevēlamās papildu izvēlnes,
+                piemēram, izvēlni “Izveidot biļeti”.
+            </lv>
+            <lt>
+                Šio įskiepio tikslas – pateikti pritaikomą meniu, kuriame būtų galima įtraukti tik dažniausiai
+                naudojamus meniu. Norėdami tvarkyti savo pasirinkimus, tiesiog eikite į savo nuostatas ir spustelėkite
+                skirtuką „Mėgstamiausi“, tada lauke „Rodomi meniu“ pasirinkite norimus elementus. Tada galite
+                pasirinkti, ar pirmiausia bus rodomas jūsų mėgstamiausių meniu. Be to, galite išjungti nepageidaujamus
+                papildomus meniu, pvz., meniu „Sukurti bilietą“.
+            </lt>
+            <mn>
+                Энэхүү залгаасны зорилго нь зөвхөн таны хамгийн их ашигладаг цэснүүдийг оруулах боломжийг олгодог
+                тохируулж болох цэсийг бий болгох явдал юм. Сонголтуудаа удирдахын тулд тохиргоо руугаа ороод "Дуртай
+                зүйлс" таб дээр дараад "Харуулах цэснүүд" талбараас хүссэн зүйлсээ сонгоно уу. Дараа нь та дуртай цэсээ
+                эхлээд харуулах эсэхийг сонгож болно. Нэмж дурдахад та "Тасалбар үүсгэх" цэс гэх мэт хүсээгүй нэмэлт
+                цэснүүдийг идэвхгүй болгож болно.
+            </mn>
+            <ms>
+                Matlamat pemalam ini adalah untuk menyediakan menu yang boleh disesuaikan yang membolehkan anda
+                memasukkan hanya menu yang paling kerap anda gunakan. Untuk mengurus pilihan anda, hanya pergi ke
+                pilihan anda dan klik pada tab "Kegemaran", kemudian pilih item yang anda inginkan daripada medan "Menu
+                yang Dipaparkan". Anda kemudian boleh memilih sama ada menu kegemaran anda dipaparkan dahulu. Selain
+                itu, anda boleh melumpuhkan menu tambahan yang tidak diingini, seperti menu "Cipta Tiket".
+            </ms>
+            <no>
+                Målet med denne plugin-modulen er å tilby en tilpassbar meny som lar deg inkludere kun de menyene du
+                bruker oftest. For å administrere valgene dine, gå til preferansene dine og klikk på fanen «Favoritter»,
+                og velg deretter elementene du ønsker fra feltet «Viste menyer». Du kan deretter velge om favorittmenyen
+                din skal vises først. I tillegg kan du deaktivere uønskede ekstramenyer, for eksempel menyen «Opprett en
+                sak».
+            </no>
+            <pl>
+                Celem tej wtyczki jest stworzenie konfigurowalnego menu, które pozwala na wyświetlanie tylko najczęściej
+                używanych menu. Aby zarządzać swoimi wyborami, wystarczy przejść do preferencji i kliknąć zakładkę
+                „Ulubione”, a następnie wybrać żądane pozycje z pola „Wyświetlane menu”. Możesz wybrać, czy menu
+                ulubionych ma być wyświetlane jako pierwsze. Dodatkowo możesz wyłączyć niechciane dodatkowe menu, takie
+                jak „Utwórz zgłoszenie”.
+            </pl>
             <pt>
                 O objetivo deste plugin é fornecer um menu totalmente personalizável, onde pode incluir apenas os menus
                 que utiliza com mais frequência. Para gerir as suas escolhas, basta aceder às suas preferências, clicar
                 no separador "Favoritos" e selecionar os itens do seu interesse no campo "Menus apresentados".
             </pt>
+            <ro>
+                Scopul acestui plugin este de a oferi un meniu personalizabil care să vă permită să includeți doar
+                meniurile pe care le utilizați cel mai des. Pentru a gestiona selecțiile, pur și simplu accesați
+                preferințele și faceți clic pe fila „Favorite”, apoi selectați elementele dorite din câmpul „Meniuri
+                afișate”. Apoi, puteți alege dacă meniul de favorite este afișat primul. În plus, puteți dezactiva
+                meniurile suplimentare nedorite, cum ar fi meniul „Creați un tichet”.
+            </ro>
+            <ru>
+                Цель этого плагина — предоставить настраиваемое меню, позволяющее отображать только те пункты, которые
+                вы используете чаще всего. Для управления выбранными пунктами просто перейдите в настройки, нажмите
+                вкладку «Избранное», затем выберите нужные пункты в поле «Отображаемые меню». После этого вы можете
+                выбрать, будет ли меню избранного отображаться первым. Кроме того, вы можете отключить ненужные лишние
+                меню, такие как меню «Создать заявку».
+            </ru>
+            <sk>
+                Cieľom tohto pluginu je poskytnúť prispôsobiteľné menu, ktoré vám umožní zahrnúť iba tie menu, ktoré
+                používate najčastejšie. Ak chcete spravovať svoje výbery, jednoducho prejdite do svojich preferencií a
+                kliknite na kartu „Obľúbené“ a potom vyberte požadované položky z poľa „Zobrazené menu“. Potom si môžete
+                vybrať, či sa má vaše menu obľúbených položiek zobraziť ako prvé. Okrem toho môžete zakázať nechcené
+                ďalšie menu, ako napríklad menu „Vytvoriť tiket“.
+            </sk>
+            <sl>
+                Cilj tega vtičnika je zagotoviti prilagodljiv meni, ki vam omogoča, da vključite le menije, ki jih
+                najpogosteje uporabljate. Če želite upravljati svoje izbire, preprosto pojdite v svoje nastavitve in
+                kliknite zavihek »Priljubljene«, nato pa v polju »Prikazani meniji« izberite želene elemente. Nato lahko
+                izberete, ali naj se meni priljubljenih prikaže najprej. Poleg tega lahko onemogočite neželene dodatne
+                menije, kot je meni »Ustvari zahtevo«.
+            </sl>
+            <sq>
+                Qëllimi i këtij plugin-i është të ofrojë një menu të personalizueshme që ju lejon të përfshini vetëm
+                menutë që përdorni më shpesh. Për të menaxhuar përzgjedhjet tuaja, thjesht shkoni te preferencat tuaja
+                dhe klikoni në skedën "Të preferuarat", pastaj zgjidhni artikujt që dëshironi nga fusha "Menytë e
+                shfaqura". Pastaj mund të zgjidhni nëse menyja juaj e të preferuarave shfaqet e para. Përveç kësaj, mund
+                të çaktivizoni menutë shtesë të padëshiruara, të tilla si menyja "Krijo një biletë".
+            </sq>
+            <sr>
+                Циљ овог додатка је да обезбеди прилагодљив мени који вам омогућава да укључите само меније које
+                најчешће користите. Да бисте управљали својим изборима, једноставно идите на своја подешавања и кликните
+                на картицу „Омиљени“, а затим изаберите жељене ставке из поља „Приказани менији“. Затим можете изабрати
+                да ли ће се ваш мени омиљених први приказивати. Поред тога, можете онемогућити нежељене додатне меније,
+                као што је мени „Креирај карту“.
+            </sr>
+            <sv>
+                Målet med detta plugin är att tillhandahålla en anpassningsbar meny som låter dig inkludera endast de
+                menyer du använder oftast. För att hantera dina val, gå helt enkelt till dina inställningar och klicka
+                på fliken "Favoriter". Välj sedan de alternativ du vill ha från fältet "Visade menyer". Du kan sedan
+                välja om din favoritmeny ska visas först. Dessutom kan du inaktivera oönskade extramenyer, till exempel
+                menyn "Skapa ett ärende".
+            </sv>
+            <th>
+                ปลั๊กอินนี้มีจุดประสงค์เพื่อสร้างเมนูที่ปรับแต่งได้ โดยให้คุณเลือกเฉพาะเมนูที่ใช้งานบ่อยที่สุดเท่านั้น
+                ในการจัดการเมนูที่คุณเลือก เพียงไปที่การตั้งค่า แล้วคลิกที่แท็บ "รายการโปรด"
+                จากนั้นเลือกรายการที่คุณต้องการจากช่อง "เมนูที่แสดง"
+                คุณสามารถเลือกได้ว่าจะให้เมนูรายการโปรดแสดงก่อนหรือไม่ นอกจากนี้
+                คุณยังสามารถปิดใช้งานเมนูเสริมที่ไม่ต้องการ เช่น เมนู "สร้างตั๋ว" ได้อีกด้วย
+            </th>
+            <tr>
+                Bu eklentinin amacı, en sık kullandığınız menüleri dahil etmenize olanak tanıyan özelleştirilebilir bir
+                menü sağlamaktır. Seçimlerinizi yönetmek için, tercihlerinize gidin ve "Favoriler" sekmesine tıklayın,
+                ardından "Görüntülenen Menüler" alanından istediğiniz öğeleri seçin. Daha sonra favoriler menünüzün ilk
+                sırada görüntülenip görüntülenmeyeceğini seçebilirsiniz. Ayrıca, "Destek Talebi Oluştur" menüsü gibi
+                istenmeyen ek menüleri devre dışı bırakabilirsiniz.
+            </tr>
+            <uk>
+                Мета цього плагіна — створити налаштоване меню, яке дозволить вам включати лише ті меню, які ви
+                використовуєте найчастіше. Щоб керувати вибраними елементами, просто перейдіть до своїх налаштувань і
+                натисніть вкладку «Улюблені», а потім виберіть потрібні елементи в полі «Відображені меню». Потім ви
+                можете вибрати, чи відображатиметься меню улюблених першим. Крім того, ви можете вимкнути небажані
+                додаткові меню, такі як меню «Створити заявку».
+            </uk>
+            <vi>
+                Mục tiêu của plugin này là cung cấp một menu tùy chỉnh cho phép bạn chỉ hiển thị những menu bạn sử dụng
+                thường xuyên nhất. Để quản lý lựa chọn của mình, chỉ cần vào phần cài đặt và nhấp vào tab "Mục yêu
+                thích", sau đó chọn các mục bạn muốn từ trường "Menu hiển thị". Sau đó, bạn có thể chọn xem menu yêu
+                thích của mình có được hiển thị trước hay không. Ngoài ra, bạn có thể vô hiệu hóa các menu bổ sung không
+                mong muốn, chẳng hạn như menu "Tạo yêu cầu hỗ trợ".
+            </vi>
             <zh>
-                此插件旨在提供一個完全可自訂的選單，您可以只添加最常用的選單項目。要管理您的選擇，只需前往您的偏好設置，點擊“收藏夾”選項卡，
-				然後從“已顯示選單”欄位中選擇您感興趣的項目即可。
+                此外掛程式旨在提供一個可自訂的選單，讓您只添加最常用的選單項目。要管理您的選擇，只需前往“首選項”，點擊“收藏夾”選項卡，
+                然後在“顯示選單”欄位中選擇所需項目。之後，您可以選擇是否將收藏夾選單置頂顯示。此外，您還可以停用不需要的額外選單，
+                例如「建立工單」選單。
             </zh>
         </long>
     </description>
@@ -126,7 +445,7 @@
         <lang>ko_KR</lang>
         <lang>lt_LT</lang>
         <lang>lt_LV</lang>
-        <lang>mn_MY</lang>
+        <lang>mn_MN</lang>
         <lang>ms_MY</lang>
         <lang>nb_NO</lang>
         <lang>nn_NO</lang>
@@ -150,28 +469,196 @@
     </langs>
     <license>GPLv3</license>
     <tags>
-        <fr>
+        <ar>
+            <tag>القائمة</tag>
+            <tag>المفضلة</tag>
+        </ar>
+        <be>
+            <tag>меню</tag>
+            <tag>улюбёнае</tag>
+        </be>
+        <bg>
+            <tag>меню</tag>
+            <tag>любими</tag>
+        </bg>
+        <bn>
+            <tag>মেনু</tag>
+            <tag>পছন্দসই</tag>
+        </bn>
+        <ca>
+            <tag>menú</tag>
+            <tag>favorits</tag>
+        </ca>
+        <cz>
             <tag>menu</tag>
-            <tag>favoris</tag>
-        </fr>
+            <tag>oblíbené</tag>
+        </cz>
+        <da>
+            <tag>menu</tag>
+            <tag>favoritter</tag>
+        </da>
+        <de>
+            <tag>menü</tag>
+            <tag>favoriten</tag>
+        </de>
+        <el>
+            <tag>μενού</tag>
+            <tag>αγαπημένα</tag>
+        </el>
         <en>
             <tag>menu</tag>
             <tag>favorites</tag>
         </en>
+        <eo>
+            <tag>menuo</tag>
+            <tag>favoratoj</tag>
+        </eo>
         <es>
-            <tag>menu</tag>
+            <tag>menú</tag>
             <tag>favoritos</tag>
         </es>
-        <de>
+        <et>
+            <tag>menüü</tag>
+            <tag>lemmikud</tag>
+        </et>
+        <eu>
+            <tag>menu</tag>
+            <tag>gogokoenak</tag>
+        </eu>
+        <fa>
+            <tag>منو</tag>
+            <tag>موارد دلخواه</tag>
+        </fa>
+        <fi>
+            <tag>valikko</tag>
+            <tag>suosikit</tag>
+        </fi>
+        <fr>
+            <tag>menu</tag>
+            <tag>favoris</tag>
+        </fr>
+        <gl>
+            <tag>menú</tag>
+            <tag>favoritos</tag>
+        </gl>
+        <he>
+            <tag>μενού</tag>
+            <tag>αγαπημένα</tag>
+        </he>
+        <hi>
+            <tag>मेनू</tag>
+            <tag>पसंदीदा</tag>
+        </hi>
+        <hr>
+            <tag>jelovnik</tag>
+            <tag>favoriti</tag>
+        </hr>
+        <hu>
             <tag>menü</tag>
-            <tag>Favoriten</tag>
-        </de>
+            <tag>kedvencek</tag>
+        </hu>
+        <id>
+            <tag>menu</tag>
+            <tag>favorit</tag>
+        </id>
+        <is>
+            <tag>valmynd</tag>
+            <tag>uppáhalds</tag>
+        </is>
+        <it>
+            <tag>menu</tag>
+            <tag>preferiti</tag>
+        </it>
+        <ja>
+            <tag>メニュー</tag>
+            <tag>お気に入り</tag>
+        </ja>
+        <km>
+            <tag>ម៉ឺនុយ</tag>
+            <tag>ចំណូលចិត្ត</tag>
+        </km>
+        <kn>
+            <tag>ಮೆನು</tag>
+            <tag>ಮೆಚ್ಚಿನವುಗಳು</tag>
+        </kn>
+        <ko>
+            <tag>메뉴</tag>
+            <tag>즐겨찾기</tag>
+        </ko>
+        <lv>
+            <tag>izvēlne</tag>
+            <tag>izlase</tag>
+        </lv>
+        <lt>
+            <tag>meniu</tag>
+            <tag>mėgstamiausi</tag>
+        </lt>
+        <mn>
+            <tag>цэс</tag>
+            <tag>дуртай зүйлс</tag>
+        </mn>
+        <ms>
+            <tag>menu</tag>
+            <tag>kegemaran</tag>
+        </ms>
+        <no>
+            <tag>meny</tag>
+            <tag>favoritter</tag>
+        </no>
+        <pl>
+            <tag>menu</tag>
+            <tag>ulubione</tag>
+        </pl>
         <pt>
             <tag>menu</tag>
             <tag>favoritos</tag>
         </pt>
+        <ro>
+            <tag>meniu</tag>
+            <tag>favorite</tag>
+        </ro>
+        <ru>
+            <tag>меню</tag>
+            <tag>избранное</tag>
+        </ru>
+        <sk>
+            <tag>menu</tag>
+            <tag>obľúbené</tag>
+        </sk>
+        <sl>
+            <tag>meni</tag>
+            <tag>priljubljene</tag>
+        </sl>
+        <sq>
+            <tag>menuja</tag>
+            <tag>të preferuarat</tag>
+        </sq>
+        <sr>
+            <tag>мени</tag>
+            <tag>омиљено</tag>
+        </sr>
+        <sv>
+            <tag>meny</tag>
+            <tag>favoriter</tag>
+        </sv>
+        <th>
+            <tag>เมนู</tag>
+            <tag>รายการโปรด</tag>
+        </th>
+        <tr>
+            <tag>menü</tag>
+            <tag>favoriler</tag>
+        </tr>
+        <uk>
+            <tag>меню</tag>
+            <tag>улюблені</tag>
+        </uk>
+        <vi>
+            <tag>menu</tag>
+            <tag>mục yêu thích</tag>
+        </vi>
         <zh>
-            <tag>畫面</tag>
+            <tag>選單</tag>
             <tag>收藏夾</tag>
         </zh>
     </tags>

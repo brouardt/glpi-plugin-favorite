@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 - Securities corrections
 - Abstractions corrections
+- New parameters
+  - menu in first place
+  - disable additionnal menu ticket
+- More translations
 
 ## [1.0.0] - 2026-06-26
 
