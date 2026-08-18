@@ -33,9 +33,7 @@ namespace GlpiPlugin\Favorites;
 use CommonGLPI;
 use DbUtils;
 use Glpi\Application\View\TemplateRenderer;
-use Html;
 use ProfileRight;
-use Session;
 use Toolbox;
 
 if (!defined('GLPI_ROOT')) {
