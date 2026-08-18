@@ -84,8 +84,7 @@ class Favorite extends CommonDBTM
                         'title' => self::getMenuName(),
                         'types' => $types,
                         'icon' => self::getIcon(),
-                        'content' => [],
-                        'display' => true
+                        'content' => []
                     ]
                 ];
 
