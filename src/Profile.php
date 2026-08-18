@@ -33,8 +33,10 @@ namespace GlpiPlugin\Favorites;
 use CommonGLPI;
 use DbUtils;
 use Glpi\Application\View\TemplateRenderer;
+use Html;
 use ProfileRight;
 use Session;
+use Toolbox;
 
 if (!defined('GLPI_ROOT')) {
     die("Sorry. You can't access directly to this file");
@@ -80,17 +82,22 @@ class Profile extends \Profile
             return false;
         }
 
+        if (self::canCreate() || self::canUpdate()) {
+            $can_edit = true;
+        } else {
+            $can_edit = false;
+        }
+
         $profile = new \Profile();
         $profile->getFromDB($item->getID());
 
-        $rights = self::getAllRights();
-
-        $twig = TemplateRenderer::getInstance();
-        $twig->display('@favorites/profile.html.twig', [
+        TemplateRenderer::getInstance()->display('@favorites/profile.html.twig', [
+            'action' => Toolbox::getItemTypeFormURL(self::class),
             'id' => $item->getID(),
             'profile' => $profile,
             'title' => __s('Favorites', PLUGIN_FAVORITES),
-            'rights' => $rights,
+            'rights' => self::getAllRights(),
+            'canedit' => $can_edit
         ]);
 
         return true;
@@ -166,8 +173,8 @@ class Profile extends \Profile
             'FROM' => 'glpi_profilerights',
             'WHERE' => [
                 'profiles_id' => $_SESSION['glpiactiveprofile']['id'],
-                'name' => ['LIKE', '%' . PLUGIN_FAVORITES_RIGHTS . '%'],
-            ],
+                'name' => ['LIKE', '%' . PLUGIN_FAVORITES_RIGHTS . '%']
+            ]
         ]);
         foreach ($it as $prof) {
             if (isset($_SESSION['glpiactiveprofile'])) {
