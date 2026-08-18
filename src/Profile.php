@@ -34,6 +34,7 @@ use CommonGLPI;
 use DbUtils;
 use Glpi\Application\View\TemplateRenderer;
 use ProfileRight;
+use Session;
 use Toolbox;
 
 if (!defined('GLPI_ROOT')) {
@@ -42,7 +43,7 @@ if (!defined('GLPI_ROOT')) {
 
 class Profile extends \Profile
 {
-    public static $rightname = PLUGIN_FAVORITES_RIGHTS;
+    public static $rightname = 'profile';
 
     /**
      * @param CommonGLPI $item
@@ -80,12 +81,6 @@ class Profile extends \Profile
             return false;
         }
 
-        if (self::canCreate() || self::canUpdate()) {
-            $can_edit = true;
-        } else {
-            $can_edit = false;
-        }
-
         $profile = new \Profile();
         $profile->getFromDB($item->getID());
 
@@ -95,7 +90,7 @@ class Profile extends \Profile
             'profile' => $profile,
             'title' => __s('Favorites', PLUGIN_FAVORITES),
             'rights' => self::getAllRights(),
-            'canedit' => $can_edit
+            'canedit' =>  Session::haveRightsOr(self::$rightname, [CREATE, UPDATE, PURGE])
         ]);
 
         return true;
