@@ -30,6 +30,7 @@
     {% if canedit %}
     <form method="post" action="{{ action }}" enctype="multipart/form-data" data-submit-once>
         {% endif %}
+
         {% do profile.displayRightsChoiceMatrix(rights, {'title': title}) %}
 
         {% if canedit %}
@@ -41,6 +42,6 @@
 
             <input type="hidden" name="id" value="{{ id }}">
             <input type="hidden" name="_glpi_csrf_token" value="{{ csrf_token() }}">
-        {% endif %}
     </form>
+    {% endif %}
 </div>
