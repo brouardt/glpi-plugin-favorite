@@ -28,7 +28,7 @@
 
 <div class="spaced">
     {% if canedit %}
-    <form method="post" action="{{ action }}" enctype="multipart/form-data">
+    <form method="post" action="{{ action }}" enctype="multipart/form-data" data-submit-once>
         {% endif %}
         {% do profile.displayRightsChoiceMatrix(rights, {'title': title}) %}
 
