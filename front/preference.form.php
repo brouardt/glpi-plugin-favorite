@@ -52,4 +52,5 @@ if (isset($_POST['id']) && (int)$_POST['id'] !== Session::getLoginUserID()) {
         $preference->update($_POST);
     }
 }
+
 Html::back();
