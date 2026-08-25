@@ -71,6 +71,8 @@ function plugin_favorites_uninstall(): bool
 
     $DB->dropTable(Preference::getTable(), true);
 
+    Toolbox::deleteDir(PLUGIN_FAVORITES_DIR);
+
     return true;
 }
 
@@ -84,7 +86,7 @@ function favorites_install_sql(string|null $current_version): void
     /** @var DBmysql $DB */
     global $DB;
 
-    if(is_null($current_version)) {
+    if (is_null($current_version)) {
         $current_version = '0.0.0';
     }
 
