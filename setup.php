@@ -36,7 +36,7 @@ use GlpiPlugin\Favorites\Preference;
 define('PLUGIN_FAVORITES', 'favorites');
 define('PLUGIN_FAVORITES_CONFIG', 'plugin:favorites');
 define('PLUGIN_FAVORITES_RIGHTS', 'plugin_favorites');
-define('PLUGIN_FAVORITES_VERSION', '1.0.2');
+define('PLUGIN_FAVORITES_VERSION', '1.0.3');
 define('PLUGIN_FAVORITES_MIN_GLPI_VERSION', '11.0.0');
 define('PLUGIN_FAVORITES_MAX_GLPI_VERSION', '11.0.99');
 
@@ -74,7 +74,7 @@ function plugin_version_favorites(): array
         'name' => __s('Favorites', PLUGIN_FAVORITES),
         'version' => PLUGIN_FAVORITES_VERSION,
         'author' => 'Thierry Brouard',
-        'license' => 'GPLv3',
+        'license' => 'GPLv3+',
         'homepage' => 'https://github.com/brouardt/glpi-plugin-favorites',
         'requirements' => [
             'glpi' => [
