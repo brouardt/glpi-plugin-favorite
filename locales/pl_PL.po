@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Polish
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Wyłącz menu biletów dodatkowych"
 
 msgid "Menu always in first"
 msgstr "Menu zawsze na pierwszym miejscu"
+
+msgid "No blocking configuration checks"
+msgstr "Nie ma blokujących sprawdzeń konfiguracji"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Ta wtyczka wymaga PHP w wersji %s lub nowszej"

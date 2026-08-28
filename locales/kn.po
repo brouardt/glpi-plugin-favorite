@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Kannada
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "ಸೇರ್ಪಡೆ ಟಿಕೆಟ್ ಮೆನುವನ್ನು ನ
 
 msgid "Menu always in first"
 msgstr "ಮೆನು ಯಾವಾಗಲೂ ಮೊದಲು"
+
+msgid "No blocking configuration checks"
+msgstr "ಯಾವುದೇ ನಿರ್ಬಂಧಿಸುವ ಸಂರಚನಾ ಪರಿಶೀಲನೆಗಳಿಲ್ಲ"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "ಈ ಪ್ಲಗಿನ್‌ಗೆ PHP %s ಅಥವಾ ಹೆಚ್ಚಿನದು ಅಗತ್ಯವಿದೆ"

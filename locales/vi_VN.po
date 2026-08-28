@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Vietnamese
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Vô hiệu hóa menu vé bổ sung"
 
 msgid "Menu always in first"
 msgstr "Thực đơn luôn được ưu tiên hàng đầu"
+
+msgid "No blocking configuration checks"
+msgstr "Không có bước kiểm tra cấu hình gây chặn"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Plugin này yêu cầu PHP %s hoặc cao hơn."

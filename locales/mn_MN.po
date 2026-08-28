@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Mongolian
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Нэмэлт тасалбарын цэсийг идэвхгүй болг
 
 msgid "Menu always in first"
 msgstr "Цэс үргэлж эхэнд байдаг"
+
+msgid "No blocking configuration checks"
+msgstr "Блоклох тохиргооны шалгалт байхгүй байна"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Энэ нэмэлт өргөтгөл нь PHP %s буюу түүнээс дээшхийг шаарддаг"

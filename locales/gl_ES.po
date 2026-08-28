@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Galician
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Desactivar o menú de tíckets aditivos"
 
 msgid "Menu always in first"
 msgstr "O menú sempre primeiro"
+
+msgid "No blocking configuration checks"
+msgstr "Sen comprobacións de configuración de bloqueo"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Este plugin require PHP %s ou superior"

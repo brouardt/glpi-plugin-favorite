@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Canadian
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -39,7 +40,7 @@ msgid "No results found"
 msgstr "No results found"
 
 msgid "Default"
-msgstr "Default"
+msgstr "Défaut"
 
 msgid "Displayed menus"
 msgstr "Displayed menus"
@@ -52,3 +53,9 @@ msgstr "Désactiver le menu additionnel des tickets"
 
 msgid "Menu always in first"
 msgstr "Le menu toujours en premier"
+
+msgid "No blocking configuration checks"
+msgstr "Aucune vérification de configuration bloquante"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Ce plugiciel nécessite PHP %s ou une version supérieure"

@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Bengali
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "অ্যাডিটিভ টিকিট মেনু নিষ্ক
 
 msgid "Menu always in first"
 msgstr "মেনু সর্বদা প্রথমে"
+
+msgid "No blocking configuration checks"
+msgstr "কোনো ব্লকিং কনফিগারেশন পরীক্ষা নেই"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "এই প্লাগিনটির জন্য PHP %s বা তার পরবর্তী সংস্করণ প্রয়োজন।"

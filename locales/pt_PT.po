@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Portuguese
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Desativar menu de bilhetes adicionais"
 
 msgid "Menu always in first"
 msgstr "O menu vem sempre primeiro."
+
+msgid "No blocking configuration checks"
+msgstr "Não existem verificações de configuração bloqueantes"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Este plugin requer PHP %s ou superior"

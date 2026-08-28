@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Azerbaijani
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Əlavə bilet menyusunu deaktiv edin"
 
 msgid "Menu always in first"
 msgstr "Menyu həmişə birinci yerdədir"
+
+msgid "No blocking configuration checks"
+msgstr "Bloklama konfiqurasiya yoxlamaları yoxdur"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Bu plagin PHP %s və ya daha yüksək tələb edir"

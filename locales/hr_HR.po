@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Croatian
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Onemogući izbornik dodatnih karata"
 
 msgid "Menu always in first"
 msgstr "Jelovnik uvijek prvi"
+
+msgid "No blocking configuration checks"
+msgstr "Nema provjera konfiguracije blokiranja"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Ovaj dodatak zahtijeva PHP %s ili noviji"

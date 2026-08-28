@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Saudi
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "تعطيل قائمة التذاكر الإضافية"
 
 msgid "Menu always in first"
 msgstr "القائمة دائماً في المقدمة"
+
+msgid "No blocking configuration checks"
+msgstr "لا توجد فحوصات لحظر التكوين"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "تتطلب هذه الإضافة إصدار PHP %s أو أحدث."

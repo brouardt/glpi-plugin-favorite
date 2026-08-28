@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Basque
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Desgaitu gehigarrizko txartelen menua"
 
 msgid "Menu always in first"
 msgstr "Menua beti lehenengo"
+
+msgid "No blocking configuration checks"
+msgstr "Ez dago blokeatzeko konfigurazio-egiaztapenik"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Plugin honek PHP %s edo berriagoa behar du"

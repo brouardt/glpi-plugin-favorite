@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Argentine
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Desactivar el menú de tickets aditivos"
 
 msgid "Menu always in first"
 msgstr "El menú siempre primero"
+
+msgid "No blocking configuration checks"
+msgstr "Sin comprobaciones de configuración de bloqueo"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Este plugin requiere PHP %s o superior"

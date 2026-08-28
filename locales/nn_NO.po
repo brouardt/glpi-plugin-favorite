@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Norwegian
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Deaktiver tilleggsbillettmeny"
 
 msgid "Menu always in first"
 msgstr "Menyen alltid først"
+
+msgid "No blocking configuration checks"
+msgstr "Det finnes ingen blokkerende konfigurasjonskontroller"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Denne pluginen krever PHP %s eller høyere"

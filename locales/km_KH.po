@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Khmer
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "បិទម៉ឺនុយសំបុត្របន្ថែម"
 
 msgid "Menu always in first"
 msgstr "ម៉ឺនុយតែងតែមុនគេ"
+
+msgid "No blocking configuration checks"
+msgstr "គ្មានការត្រួតពិនិត្យការកំណត់រចនាសម្ព័ន្ធដែលរារាំងទេ"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "កម្មវិធីជំនួយនេះតម្រូវឱ្យមាន PHP %s ឬខ្ពស់ជាងនេះ"

@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Swedish
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Inaktivera ytterligare ärendemeny"
 
 msgid "Menu always in first"
 msgstr "Menyn alltid först"
+
+msgid "No blocking configuration checks"
+msgstr "Det finns inga blockerande konfigurationskontroller"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Detta plugin kräver PHP %s eller högre"

@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# ???
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -50,4 +51,10 @@ msgid "Disable additive ticket menu"
 msgstr ""
 
 msgid "Favorite menu always in first"
+msgstr ""
+
+msgid "No blocking configuration checks"
+msgstr ""
+
+msgid "This plugin requires PHP %s or higher"
 msgstr ""

@@ -36,7 +36,7 @@ use GlpiPlugin\Favorites\Preference;
 define('PLUGIN_FAVORITES', 'favorites');
 define('PLUGIN_FAVORITES_CONFIG', 'plugin:favorites');
 define('PLUGIN_FAVORITES_RIGHTS', 'plugin_favorites');
-define('PLUGIN_FAVORITES_VERSION', '1.0.3');
+define('PLUGIN_FAVORITES_VERSION', '1.0.4');
 define('PLUGIN_FAVORITES_MIN_GLPI_VERSION', '11.0.0');
 define('PLUGIN_FAVORITES_MAX_GLPI_VERSION', '11.0.99');
 
@@ -90,6 +90,13 @@ function plugin_version_favorites(): array
  */
 function plugin_favorites_check_prerequisites(): bool
 {
+    $phpversion = '8.3.0';
+
+    if (version_compare(PHP_VERSION, $phpversion, '<')) {
+        echo "Ce plugin nécessite PHP $phpversion ou supérieur";
+        return false;
+    }
+
     return true;
 }
 
@@ -99,5 +106,9 @@ function plugin_favorites_check_prerequisites(): bool
  */
 function plugin_favorite_check_config(bool $verbose = false): bool
 {
+    if ($verbose) {
+        echo __('Aucune vérification de configuration bloquante', PLUGIN_FAVORITES);
+    }
+
     return true;
 }

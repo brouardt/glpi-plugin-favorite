@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Thai
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "ปิดใช้งานเมนูตั๋วเพิ่มเต
 
 msgid "Menu always in first"
 msgstr "เมนูมาก่อนเสมอ"
+
+msgid "No blocking configuration checks"
+msgstr "ไม่มีการตรวจสอบการกำหนดค่าที่เป็นตัวขัดขวางการทำงาน"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "ปลั๊กอินนี้ต้องการ PHP เวอร์ชัน %s หรือสูงกว่า"

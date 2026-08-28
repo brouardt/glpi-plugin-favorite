@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Bulgarian
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Деактивиране на менюто за допълнителни
 
 msgid "Menu always in first"
 msgstr "Менюто винаги е на първо място"
+
+msgid "No blocking configuration checks"
+msgstr "Няма праверак канфігурацыі блакіроўкі"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Този плъгин изисква PHP %s или по-нова версия"

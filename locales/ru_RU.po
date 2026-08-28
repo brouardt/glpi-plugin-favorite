@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Russian
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Отключить меню дополнительных билетов"
 
 msgid "Menu always in first"
 msgstr "Меню всегда на первом месте"
+
+msgid "No blocking configuration checks"
+msgstr "Блокирующих проверок конфигурации нет"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Для работы этого плагина требуется PHP версии %s или выше"

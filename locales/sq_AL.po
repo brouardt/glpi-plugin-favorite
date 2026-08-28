@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Albanian
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -50,5 +51,8 @@ msgstr "Nuk keni leje për të modifikuar këtë artikull"
 msgid "Disable additive ticket menu"
 msgstr "Çaktivizo menunë e biletave shtesë"
 
-msgid "Menu always in first"
-msgstr "Menuja gjithmonë e para"
+msgid "No blocking configuration checks"
+msgstr "Nuk ka kontrolle të konfigurimit të bllokimit"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Ky plugin kërkon PHP %s ose më të lartë"

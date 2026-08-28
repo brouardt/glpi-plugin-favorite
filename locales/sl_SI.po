@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Slovenian
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "Onemogoči meni dodatnih vstopnic"
 
 msgid "Menu always in first"
 msgstr "Jedilnik je vedno na prvem mestu"
+
+msgid "No blocking configuration checks"
+msgstr "Ni preverjanj konfiguracije blokiranja"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "Ta vtičnik zahteva PHP %s ali novejši"

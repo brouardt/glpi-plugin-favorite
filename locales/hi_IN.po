@@ -1,6 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Language:
+# Hindi
+# Copyright (C) 2026
+# This file is distributed under the same license as the favorites package.
 #
 # Translators:
 # Thierry Brouard <thierry.brouard@free.fr>, 2026
@@ -52,3 +53,9 @@ msgstr "एडिटिव टिकट मेनू अक्षम करे�
 
 msgid "Menu always in first"
 msgstr "मेनू हमेशा पहले"
+
+msgid "No blocking configuration checks"
+msgstr "कोई ब्लॉकिंग कॉन्फ़िगरेशन जाँच नहीं"
+
+msgid "This plugin requires PHP %s or higher"
+msgstr "इस प्लगइन के लिए PHP %s या उससे नया वर्शन चाहिए।"
