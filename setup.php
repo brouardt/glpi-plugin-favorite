@@ -93,7 +93,7 @@ function plugin_favorites_check_prerequisites(): bool
     $phpversion = '8.3.0';
 
     if (version_compare(PHP_VERSION, $phpversion, '<')) {
-        echo "Ce plugin nécessite PHP $phpversion ou supérieur";
+        echo sprintf(__("Ce plugin nécessite PHP %s ou supérieur", PLUGIN_FAVORITES), $phpversion);
         return false;
     }
 
