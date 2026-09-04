@@ -36,9 +36,7 @@ use GlpiPlugin\Favorites\Preference;
 define('PLUGIN_FAVORITES', 'favorites');
 define('PLUGIN_FAVORITES_CONFIG', 'plugin:favorites');
 define('PLUGIN_FAVORITES_RIGHTS', 'plugin_favorites');
-define('PLUGIN_FAVORITES_VERSION', '1.0.5');
-define('PLUGIN_FAVORITES_MIN_GLPI_VERSION', '11.0.0');
-define('PLUGIN_FAVORITES_MAX_GLPI_VERSION', '11.0.99');
+define('PLUGIN_FAVORITES_VERSION', '1.0.6');
 
 if (!defined('PLUGIN_FAVORITES_DIR')) {
     define('PLUGIN_FAVORITES_DIR', Plugin::getPhpDir(PLUGIN_FAVORITES));
@@ -78,37 +76,10 @@ function plugin_version_favorites(): array
         'homepage' => 'https://github.com/brouardt/glpi-plugin-favorites',
         'requirements' => [
             'glpi' => [
-                'min' => PLUGIN_FAVORITES_MIN_GLPI_VERSION,
-                'max' => PLUGIN_FAVORITES_MAX_GLPI_VERSION,
-            ],
+                'min' => '11.0.0',
+                'max' => '11.0.99',
+            ]
         ],
     ];
 }
 
-/**
- * @return bool
- */
-function plugin_favorites_check_prerequisites(): bool
-{
-    $phpversion = '8.3.0';
-
-    if (version_compare(PHP_VERSION, $phpversion, '<')) {
-        echo sprintf(__("Ce plugin nécessite PHP %s ou supérieur", PLUGIN_FAVORITES), $phpversion);
-        return false;
-    }
-
-    return true;
-}
-
-/**
- * @param bool $verbose
- * @return bool
- */
-function plugin_favorites_check_config(bool $verbose = false): bool
-{
-    if ($verbose) {
-        echo __('Aucune vérification de configuration bloquante', PLUGIN_FAVORITES);
-    }
-
-    return true;
-}
