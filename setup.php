@@ -74,7 +74,7 @@ function plugin_version_favorites(): array
         'name' => __s('Favorites', PLUGIN_FAVORITES),
         'version' => PLUGIN_FAVORITES_VERSION,
         'author' => 'Thierry Brouard',
-        'license' => 'GPLv3+',
+        'license' => 'GPL v3+',
         'homepage' => 'https://github.com/brouardt/glpi-plugin-favorites',
         'requirements' => [
             'glpi' => [
