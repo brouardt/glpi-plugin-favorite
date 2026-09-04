@@ -104,7 +104,7 @@ function plugin_favorites_check_prerequisites(): bool
  * @param bool $verbose
  * @return bool
  */
-function plugin_favorite_check_config(bool $verbose = false): bool
+function plugin_favorites_check_config(bool $verbose = false): bool
 {
     if ($verbose) {
         echo __('Aucune vérification de configuration bloquante', PLUGIN_FAVORITES);
