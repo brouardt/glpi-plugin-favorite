@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2026-09-04
+
+## Setup
+
+- Fixed a bug related to disabling "debug" mode.
+
 ## [1.0.4] - 2026-08-28
 
 ### Locales
