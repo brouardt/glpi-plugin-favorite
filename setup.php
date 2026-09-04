@@ -36,7 +36,7 @@ use GlpiPlugin\Favorites\Preference;
 define('PLUGIN_FAVORITES', 'favorites');
 define('PLUGIN_FAVORITES_CONFIG', 'plugin:favorites');
 define('PLUGIN_FAVORITES_RIGHTS', 'plugin_favorites');
-define('PLUGIN_FAVORITES_VERSION', '1.0.4');
+define('PLUGIN_FAVORITES_VERSION', '1.0.5');
 define('PLUGIN_FAVORITES_MIN_GLPI_VERSION', '11.0.0');
 define('PLUGIN_FAVORITES_MAX_GLPI_VERSION', '11.0.99');
 
